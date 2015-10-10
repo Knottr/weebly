@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+</head>
+
+<body class='landing-page  wsite-theme-light'>
+
+	<input type="checkbox" id="mobile-trigger" class="mobile-trigger">
+
+	<div id="main-wrap">
+
+		<div id="banner-wrap" class="wsite-background">
+
+			<div id="header-wrap">
+				<div id="header">
+					<div class="container">
+						<table>
+							<tr>
+								<td id="nav-wrap">{menu}</td>
+								<td class="search">{search}</td>
+							</tr>
+						</table>
+						<label id="nav-trigger" class="hamburger" for="mobile-trigger"></label>
+					</div><!-- end container -->
+				</div>
+			</div><!-- end header-wrap -->  
+
+			<div id="banner" class="container">
+				<div id="banner-inner">
+					{logo}
+					<h2>{headline:text global="false"}</h2>
+					<p>{headline-paragraph:text global="false"}</p>
+					<div class="button-wrap">{action:button global="false"}</div>
+					 
+				</div> <!--end banner-inner-->
+			</div>
+		</div><!--end banner-wrap-->
+		
+		<div id="main-content" class="container">{content}</div>
+
+    <div id="footer-wrap">
+    	{footer}
+    </div><!-- end footer-wrap -->
+
+	</div><!-- end main-wrap -->
+
+	<div id="navmobile" class="nav">{menu}</div>
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="/files/theme/plugins.js"></script>
+	<script type="text/javascript" src="/files/theme/custom.js"></script>
+	<script type="text/javascript" src="/files/theme/mobile.js"></script>
+</body>
+
+</html>
